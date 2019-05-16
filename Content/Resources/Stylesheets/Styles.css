@@ -1,0 +1,495 @@
+/*<meta />*/
+
+:root
+{
+	--Brand: #076685;
+	--Black: #000000;
+	--Dark-Gray: #45494c;
+	--Medium-Gray: #b9bec1;
+	--Light-Gray: #d0d3d5;
+}
+
+body
+{
+	color: var(--Black);
+	font-family: Arial, Avenir, Myriad;
+	font-size: 11pt;
+	line-height: 13pt;
+	margin: 8px;
+}
+
+/* Backmatter */
+
+div.GlossaryPageDefinition
+{
+	font-size: 10pt;
+}
+
+div.GlossaryPageHeading
+{
+	font-size: 21pt;
+	font-weight: normal;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border-bottom-color: var(--Medium-Gray);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	text-align: left;
+	color: inherit;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 10px;
+	background-image: url('../Images/Backmatter-Heading-Background.png');
+	background-repeat: no-repeat;
+}
+
+div.GlossaryPageTerm
+{
+	font-size: 12pt;
+	font-weight: bold;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+MadCap|glossaryProxy
+{
+	border-top: none;
+}
+
+MadCap|indexProxy
+{
+	border-top: none;
+}
+
+p.Index1
+{
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+p.Index2
+{
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+p.IndexHeading
+{
+	font-size: 21pt;
+	font-weight: normal;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border-bottom-color: var(--Medium-Gray);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	text-align: left;
+	color: inherit;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 10px;
+	background-image: url('../Images/Backmatter-Heading-Background.png');
+	background-repeat: no-repeat;
+}
+
+/* Content */
+
+p
+{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	widows: 2;
+	orphans: 2;
+}
+
+p.image
+{
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+p.table-text
+{
+	font-size: 11pt;
+}
+
+/* Frontmatter */
+
+hr.title-page
+{
+	border: solid 0px transparent;
+	background-color: var(--Light-Gray);
+	height: 1px;
+	width: 100%;
+	margin-bottom: 30px;
+	margin-top: 370px;
+}
+
+MadCap|tocProxy
+{
+	border-top: none;
+	margin-right: 0.25in;
+	padding-left: 5px;
+	mc-hyphenate: never;
+}
+
+p.created-using-flare
+{
+	color: var(--Dark-Gray);
+	font-weight: bold;
+	margin-top: 18px;
+	font-size: 9pt;
+	line-height: 15pt;
+	text-transform: uppercase;
+}
+
+p.title
+{
+	font-size: 55pt;
+	line-height: 65pt;
+	margin-top: 85px;
+}
+
+p.title-page-footer
+{
+	color: var(--Dark-Gray);
+	font-size: 9pt;
+	line-height: 15pt;
+}
+
+p.TOC1
+{
+	color: var(--Dark-Gray);
+	page-break-after: avoid;
+	mc-hyphenate: never;
+	font-variant: normal;
+	margin-top: 15px;
+	font-weight: normal;
+	font-style: normal;
+	border-bottom-style: none;
+	border-bottom-width: 5px;
+	mc-multiline-indent: 155px;
+	line-height: 1.7em;
+	font-size: 18pt;
+}
+
+p.TOC2
+{
+	color: var(--Dark-Gray);
+	font-size: 15pt;
+	line-height: 21pt;
+	margin-bottom: 13px;
+	margin-left: .5in;
+	margin-top: 13px;
+	font-weight: bold;
+	font-style: normal;
+	mc-hyphenate: never;
+}
+
+p.TOC3
+{
+	color: var(--Dark-Gray);
+	font-size: 13pt;
+	line-height: 21pt;
+	font-weight: normal;
+	margin-bottom: 10px;
+	margin-left: 1in;
+	margin-top: 10px;
+}
+
+/* Headings */
+
+h1
+{
+	color: var(--Brand);
+	font-size: 25pt;
+	font-weight: bold;
+	line-height: 27pt;
+	margin-bottom: 20px;
+}
+
+h2
+{
+	font-size: 21pt;
+	font-weight: normal;
+	line-height: 23pt;
+	margin-bottom: 18px;
+	margin-top: 40px;
+	page-break-before: always;
+	mc-auto-number-format: 'GH:{n}.{n+} ';
+	mc-hyphenate: never;
+}
+
+h3
+{
+	font-size: 15pt;
+	font-weight: bold;
+	line-height: 17pt;
+	margin-bottom: 15px;
+	margin-top: 40px;
+	mc-auto-number-format: 'GH:{n}.{n}.{n+}   ';
+}
+
+/* Links */
+
+a
+{
+	color: var(--Brand);
+}
+
+a:link
+{
+	color: var(--Brand);
+}
+
+a:visited
+{
+	color: var(--Brand);
+}
+
+/* Lists */
+
+li
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+	padding-left: 1px;
+}
+
+li p
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+	margin-left: 0;
+}
+
+/* Page layout */
+
+p.frame-footer-page-number
+{
+	color: var(--Medium-Gray);
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: right;
+}
+
+p.frame-footer-text
+{
+	color: var(--Medium-Gray);
+	font-size: 11pt;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+p.note
+{
+	color: #616E14;
+	border: solid 1px #BFD62F;
+	background-color: #DAE691;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	padding: 14px 20px;
+	mc-auto-number-format: '{b}Note: {/b}';
+}
+
+thead.NewClass
+{
+	color: var(--Brand);
+	font-size: 25pt;
+	font-weight: bold;
+	line-height: 27pt;
+	margin-bottom: 20px;
+	mc-auto-number-format: 'GH:{n+} ';
+}
+
+thead.NewClass1
+{
+	color: var(--Brand);
+	font-size: 25pt;
+	font-weight: bold;
+	line-height: 27pt;
+	margin-bottom: 20px;
+	mc-auto-number-format: 'GH:{n+} ';
+}
+
+h1.new
+{
+	mc-auto-number-format: 'GH:{n+} ';
+	font-weight: bold;
+	font-style: normal;
+}
+
+h4
+{
+	font-weight: bold;
+	font-size: 11pt;
+	mc-auto-number-offset: 0.7in;
+	mc-auto-number-format: 'GH:{n}.{n}.{n}.{n+}   ';
+}
+
+p.image-caption
+{
+	text-align: center;
+	mc-auto-number-format: 'GF:{b}Figure {n+}{/b} — ';
+}
+
+p.TOC4
+{
+	color: var(--Dark-Gray);
+	margin-left: 1.5in;
+}
+
+div.pagenobreak
+{
+	
+}
+
+h2.new
+{
+	mc-auto-number-format: '{chapnum}.{n+}  ';
+}
+
+pre
+{
+	mc-hyphenate: never;
+}
+
+h5
+{
+	mc-auto-number-format: 'GH:{n}.{n}.{n}.{n}.{n+}   ';
+}
+
+MadCap|xref.TOCPageNumber
+{
+	font-size: 12pt;
+	font-weight: normal;
+	font-style: normal;
+}
+
+p.TOC5
+{
+	color: var(--Dark-Gray);
+	margin-left: 1.7in;
+}
+
+p.MiniTOC1
+{
+	
+}
+
+td
+{
+	mc-hyphenate: never;
+}
+
+@media print
+{
+	div.pagenobreak
+	{
+		page-break-inside: avoid;
+	}
+
+	h2
+	{
+		mc-auto-number-format: 'GH:{n}.{n+}   ';
+		mc-hyphenate: never;
+		mc-multiline-indent: 60px;
+	}
+
+	p.TOC1
+	{
+		mc-hyphenate: never;
+		mc-multiline-indent: 155px;
+		line-height: 1.7em;
+		font-size: 18pt;
+	}
+
+	p.TOC2
+	{
+		text-indent: -0.50in;
+		mc-multiline-indent: 45px;
+		mc-hyphenate: never;
+		mc-hyphenate-shortest-suffix: 15;
+	}
+
+	MadCap|tocProxy
+	{
+		padding-left: 0;
+		margin-left: 0;
+	}
+
+	h1.new
+	{
+		mc-auto-number-format: 'GH:{n+}   ';
+	}
+
+	p
+	{
+		mc-hyphenate: never;
+	}
+
+	h1.Appendix1
+	{
+		hanging-punctuation: inherit;
+		mc-hyphenate: never;
+	}
+
+	h5
+	{
+		font-weight: bold;
+		font-style: inherit;
+		font-size: 10pt;
+	}
+
+	h4
+	{
+		font-style: inherit;
+	}
+
+	p.MiniTOC1
+	{
+		
+	}
+
+	li p
+	{
+		orphans: 3;
+		page-break-inside: avoid;
+		margin-left: 0;
+		padding-left: 1px;
+	}
+
+	td
+	{
+		mc-hyphenate: never;
+	}
+
+	li
+	{
+		
+	}
+
+	p.title
+	{
+		font-size: 55pt;
+	}
+}
+
+h1.Appendix1
+{
+	mc-hyphenate: never;
+	mc-auto-number-format: 'GA:Appendix {A+1} – ';
+	font-style: normal;
+	mc-hyphenate-shortest-word: 15;
+	font-weight: bold;
+	margin-bottom: .67em;
+}
+
+h2.Appendix2
+{
+	mc-auto-number-format: 'GA:{A}.{n+} ';
+	mc-hyphenate: never;
+}
+
