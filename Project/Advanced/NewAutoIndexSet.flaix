@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultAutoIndexSet>
+  <AutoIndex
+    Phrase="Lorem"
+    IndexTerm="Lorem"
+    IgnoreCase="True"></AutoIndex>
+  <AutoIndex
+    Phrase="Ipsum"
+    IndexTerm="Ipsum"
+    IgnoreCase="True"></AutoIndex>
+  <AutoIndex
+    Phrase="Dolor"
+    IndexTerm="Dolor"
+    IgnoreCase="True"></AutoIndex>
+  <AutoIndex
+    Phrase="Sit"
+    IndexTerm="Sit"
+    IgnoreCase="True"></AutoIndex>
+  <AutoIndex
+    Phrase="Amet"
+    IndexTerm="Amet"
+    IgnoreCase="True"></AutoIndex>
+</CatapultAutoIndexSet>

@@ -11,4 +11,24 @@
     <Definition
       Link="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero justo laoreet sit amet cursus sit. In hac habitasse platea dictumst vestibulum rhoncus est. Pellentesque diam volutpat commodo sed egestas.</Definition>
   </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term0"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Ipsum</Term>
+    </Terms>
+    <Definition
+      Link="">Sapien nec sagittis aliquam malesuada. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term1"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Dolor</Term>
+    </Terms>
+    <Definition
+      Link="">Pellentesque diam volutpat commodo sed egestas. Enim nunc faucibus a pellentesque sit amet porttitor eget dolor. Curabitur gravida arcu ac tortor dignissim convallis.</Definition>
+  </GlossaryEntry>
 </CatapultGlossary>
