@@ -6,9 +6,9 @@
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>Customer Master</Term>
+      <Term>Lorem</Term>
     </Terms>
     <Definition
-      Link="">Customer master data is the data you require to conduct business relationships with your customers. It includes address data and terms of payment, for example. It also controls how business transactions are posted to a customer account and how the posted data is processed. Master data, such as whether complete delivery is required and the default delivery plant, is stored in master records.</Definition>
+      Link="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero justo laoreet sit amet cursus sit. In hac habitasse platea dictumst vestibulum rhoncus est. Pellentesque diam volutpat commodo sed egestas.</Definition>
   </GlossaryEntry>
 </CatapultGlossary>
