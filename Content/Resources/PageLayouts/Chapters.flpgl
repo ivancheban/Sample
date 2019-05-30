@@ -3,7 +3,7 @@
     <Page Name="Normal" Width="7in" Height="9in" Padding="20px" PageSize="Letter" PageType="normal" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in">
         <Frame Flow="body" ColumnCount="1" Anchors="Left,Right,Top,Bottom" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" X="-0.2916667in" Y="0in" Right="-0.28125in" Bottom="85px" Width="679px" Height="779px">
         </Frame>
-        <Frame X="0px" Y="807px" Width="624px" Height="57px" Flow="footer" Right="0px" Bottom="0px" Anchors="Left,Right,Bottom" TextAlign="center" VerticalAlign="top" BorderTopStyle="solid" BorderTopWidth="1px" BorderTopColor="#d0d3d5" PaddingTop="30px">
+        <Frame X="-27px" Y="807px" Width="674px" Height="57px" Flow="footer" Right="-23px" Bottom="0px" Anchors="Left,Right,Bottom" TextAlign="center" VerticalAlign="top" BorderTopStyle="solid" BorderTopWidth="2px" BorderTopColor="#d0d3d5" PaddingTop="30px">
             <Content>
                 <xhtml:html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:head>
@@ -15,8 +15,7 @@
                             <xhtml:tbody>
                                 <xhtml:tr>
                                     <xhtml:td>
-                                        <xhtml:p xhtml:class="frame-footer-text"><MadCap:variable xhtml:name="Heading.Level1" />
-                                        </xhtml:p>
+                                        <xhtml:p xhtml:class="frame-footer-text">SAMPLE&#160;DOCUMENT</xhtml:p>
                                     </xhtml:td>
                                     <xhtml:td>
                                         <xhtml:p xhtml:class="frame-footer-page-number"><MadCap:variable xhtml:name="System.PageNumber" />
@@ -25,6 +24,17 @@
                                 </xhtml:tr>
                             </xhtml:tbody>
                         </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="-23px" Y="-72px" Width="673px" Height="58px" Flow="header" Right="-26px" Bottom="878px" BorderBottomStyle="solid" BorderBottomWidth="2px" BorderBottomColor="#d0d3d5" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:style="color: #d0d3d5;text-align: right;font-weight: inherit;font-family: Arial, Avenir, Myriad;font-style: inherit;font-size: 11pt;font-variant: inherit;text-transform: capitalize;">&#160;</xhtml:p>
+                        <xhtml:p xhtml:style="color: #d0d3d5;text-align: right;font-weight: inherit;font-family: Arial, Avenir, Myriad;font-style: inherit;font-size: 11pt;font-variant: inherit;text-transform: uppercase;"><MadCap:variable xhtml:name="Heading.Level1" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        </xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
