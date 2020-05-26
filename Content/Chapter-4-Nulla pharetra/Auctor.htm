@@ -10,5 +10,17 @@
             <li>Elit eget gravida cum sociis natoque penatibus et magnis.</li>
             <li>Tincidunt augue interdum velit euismod in pellentesque massa placerat. Tristique risus nec feugiat in fermentum posuere urna. Vel risus commodo viverra maecenas accumsan lacus vel. Proin libero nunc consequat interdum varius. Tellus at urna condimentum mattis pellentesque id nibh tortor. Ultrices in iaculis nunc sed.</li>
         </ul>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ;">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>
+                <p>js</p>
+            </MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="True" xml:space="preserve" style="mc-code-lang: JavaScript;">registerPlugin: function (plugin, name) {
+            var pluginName = name ? hyphenate(name) : functionName(plugin.constructor).toLowerCase();
+            plugin.uuid = this.GetYoDigits(6, pluginName);
+
+            if (!plugin.$element.attr('data-' + pluginName)) {
+                plugin.$element.attr('data-' + pluginName, plugin.uuid);</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
     </body>
 </html>
