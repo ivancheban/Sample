@@ -18,7 +18,8 @@
     GenerateGlossaryProxy="true" />
   <DocumentProperties
     Title="Sample Document"
-    Author="My Name" />
+    Author="Ivan Cheban"
+    Keywords="MadCap Flare sample" />
   <PDF
     ShowUsedBookmarks="false"
     InitialMagnification="Fit"
